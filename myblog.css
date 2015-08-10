@@ -1,0 +1,96 @@
+body {
+    font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
+    font-size: 1.2rem;
+    line-height: 150%;
+    color: #333;
+    margin: 0px;
+}
+
+.main_block {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myblog_header {
+    height: 170px;
+    background-color: #9cc;
+    margin: 0px;
+}
+
+#head_content {
+    padding-top: 65px;
+    padding-bottom: 50px;
+    width: 850px;
+    margin-right: auto;
+    margin-left: auto; 
+    font-weight: 300;
+}
+
+.myblog_name {
+    font-size: 32px;
+    margin: 0px;
+}
+
+#block_1 {
+    height: 10px;
+}
+
+#myblog_nav {
+    float: right;
+}
+
+.nav_ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.nav_li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+a:hover {
+    color: #666
+}
+
+a:active {
+    color: #888
+}
+
+.nav_link_style {
+    color: #333;
+    text-decoration: none;
+}
+
+.icon_link_style {
+    color: #333;
+    text-decoration: none;
+}
+
+.content_area {
+    height: 500px;
+}
+
+.myblog_footer {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 90%;
+    height: 60px;
+    clear: both;
+}
+
+.footer_block {
+    border-top: thin solid #9cc;
+}
+
+#copyright {
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_p {
+    margin-top: 0px;
+    padding-top: 20px;
+}
