@@ -1,0 +1,11 @@
+{% extends "base_style.html" %}
+
+{% block title %}About Me{% endblock %}
+
+{% block main_content %}
+<ul>
+    {% for item in aboutme %}
+    <li class="about_me_li">{{ item }}: {{ aboutme[item] }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
