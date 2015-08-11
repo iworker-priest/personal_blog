@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<archive>
+    <property>
+        <data>2015-8-11</data>
+        <tags>Python, Web</tags>
+    </property>
+    <content>
+        <title>Web Development</title>
+        <p>this is a guide for web development.</p>
+        <img>image1.png</img>
+        <p>that is the end</p>
+    </content>
+</archive>

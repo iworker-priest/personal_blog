@@ -1,0 +1,14 @@
+{% extends "base_style.html" %}
+
+{% block title %}Tags{% endblock %}
+
+{% block main_content %}
+<h3 class="content_title">
+    Tags:
+</h3>
+<ul>
+    {% for tag in tags %}
+    <li class="tag_li"><i class="fa fa-tags"></i>&nbsp;<a href="tagsdetail/{{ tag }}" class="text_link_style">{{ tag }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}
